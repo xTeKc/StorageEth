@@ -11,5 +11,7 @@ contract DataStorage {
         return ids;
     }
 
-    
+    function length() view public returns(uint) {
+        return ids.length;
+    }
 }
