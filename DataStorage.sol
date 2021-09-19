@@ -6,4 +6,10 @@ contract DataStorage {
     function get(uint position) view public returns(uint) {
         return ids[position];
     }
+
+    function getAll() view public returns(uint[] memory) {
+        return ids;
+    }
+
+    
 }
