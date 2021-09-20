@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("DataStorage");
+const DataStorage = artifacts.require("DataStorage");
 
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(DataStorage);
 };
