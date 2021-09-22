@@ -24,7 +24,7 @@ const initWeb3 = () => {
         new Web3(window.web3.currentProvider)
       );
     }
-    resolve(new Web3('https://xtekc.github.io/StorageEth/'));
+    resolve(new Web3('http://localhost:9545'));
   });
 };
 
