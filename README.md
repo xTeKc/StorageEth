@@ -1,2 +1,2 @@
 # StorageEth
-Store Data using Solidity smart contract.
+Store Data using a Solidity smart contract.
