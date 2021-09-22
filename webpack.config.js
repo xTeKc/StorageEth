@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js', // string
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    // contentBase: path.join(__dirname, 'public'),
     compress: true,
     port: 8080
   }
